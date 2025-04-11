@@ -10,6 +10,7 @@ Projeto desenvolvido para simular o controle de apostas em um clube de corridas 
 ✅ Filhos de interação para apostas e vitória.
 ✅ Armazenamento local (localStorage) das apostas feitas.
 ✅ Reset de apostas com botão "Novo Páreo".
+
 🧠 Tecnologias Utilizadas
 Linguagem/Tecnologia	Finalidade
 HTML5	Estrutura da interface
@@ -17,8 +18,10 @@ CSS3 + Bootstrap	Estilo e responsabilidade
 JavaScript	Lógica do sistema de apostas
 Armazenamento local	Persistência de dados
 Páginas do GitHub (opcional)	Hospedagem do projeto
+
 📁 Estrutura do Projeto
 JockeyClub/
+
 ├── index.html
 ├── css/
 │   └── style.css
@@ -39,11 +42,7 @@ Botões funcionais para interações com o sistema.
 
 Imagens e ícones para visualização intuitiva.
 
-🧑‍💻 Desenvolvedor por Luiz Guni
-
-GitHub: @Luizguni
-
-LinkedIn: linkedin.com/in/Luizguni
+🧑‍💻 Desenvolvedor por Luiz Guni  LinkedIn: linkedin.com/in/Luizguni
 
 📌 Instruções para uso
 Clone o repositório:
