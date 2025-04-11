@@ -1,60 +1,63 @@
-🏇 Jockey Club - Sistema de Controle de Apostas
-Projeto desenvolvido para simular o controle de apostas em um clube de corridas de cavalos. Utilize HTML5, CSS, Bootstrap e JavaScript com persistência de dados via localStorage.
 
-🔧 Funcionalidades
-✅ Cadastro de apostas por número de cavalo e valor.
-✅ Nome personalizado para cada cavalo.
-✅ Exibição de resumo das apostas.
-✅ Sorteio aleatório de um vencedor.
-✅ Ranking visual com barras proporcionais aos valores apostados.
-✅ Filhos de interação para apostas e vitória.
-✅ Armazenamento local (localStorage) das apostas feitas.
-✅ Reset de apostas com botão "Novo Páreo".
+  🎲 Jockey Club – Sistema de Controle de Apostas
 
-🧠 Tecnologias Utilizadas
-Linguagem/Tecnologia	Finalidade
-HTML5	Estrutura da interface
-CSS3 + Bootstrap	Estilo e responsabilidade
-JavaScript	Lógica do sistema de apostas
-Armazenamento local	Persistência de dados
-Páginas do GitHub (opcional)	Hospedagem do projeto
 
-📁 Estrutura do Projeto
-JockeyClub/
 
+Jockey Club é uma aplicação front-end interativa desenvolvida com HTML5, CSS3, Bootstrap e JavaScript, que simula apostas em corridas de cavalos. O sistema permite o cadastro de apostas, sorteio aleatório de vencedores e exibição de rankings dinâmicos, com persistência de dados utilizando o localStorage do navegador.​
+
+🛠️ Tecnologias Utilizadas
+
+° HTML5: Estruturação semântica da interface.​
+
+° CSS3 + Bootstrap: Estilização responsiva e componentes visuais modernos.​
+
+° JavaScript (ES6+): Lógica de negócios, manipulação do DOM e interações dinâmicas.​
+Hora de Codar
+
+° localStorage: Armazenamento persistente das apostas no navegador.​
+
+⚙️ Funcionalidades
+
+° Cadastro de apostas com número do cavalo e valor apostado.​
+
+° Personalização dos nomes dos cavalos.​
+
+° Exibição de resumo detalhado das apostas realizadas.​
+
+° Sorteio aleatório de um cavalo vencedor.​
+
+° Ranking visual com barras proporcionais aos valores apostados.​
+
+° Interações intuitivas para realizar apostas e visualizar resultados.​
+
+° Persistência dos dados utilizando localStorage.​
+
+° Botão "Novo Páreo" para resetar as apostas e iniciar uma nova corrida.​
+
+📂 Estrutura do Projeto
+
+
+Projeto-Front-End/
 ├── index.html
 ├── css/
 │   └── style.css
-├── img/
-│   └── joqueinew.png
-│   └── joquei.jpeg
-├── Jockey.js
+├── js/
+│   └── script.js
 └── README.md
 
-🎨 Interface
-A interface conta com:
+🚀 Como Executar o Projeto
 
-Formulário de entrada com campos para número do cavalo e valor da aposta.
+  1. Clone o repositório:
+     
+         git clone https://github.com/Luizguni/Projeto-Front-End.git
 
-Área de exibição de resumo e ranking.
+ 2. Navegue até o diretório do projeto:]
 
-Botões funcionais para interações com o sistema.
+        cd Projeto-Front-End
 
-Imagens e ícones para visualização intuitiva.
+🧑‍💻 Autor
 
-🧑‍💻 Desenvolvedor por Luiz Guni  LinkedIn: linkedin.com/in/Luizguni
+Luiz Guni​ Hora de Codar
 
-📌 Instruções para uso
-Clone o repositório:
+[GitHub](https://github.com/Luizguni) | [LinkedIn](https://www.linkedin.com/in/luizguni/)
 
-bash
-Copiar
-Editar
-git clone https://github.com/Luizguni/JockeyClub.git
-Abra o arquivo index.html em seu navegador.
-
-Teste as funcionalidades de apostas e sorteios!
-
-📝 Licença
-Este projeto está sob a licença MIT - sinta-se livre para utilizar e aprimorar!
-Projeto-Fr
