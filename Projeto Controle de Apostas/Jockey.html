@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/joquei.jpeg">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <title>Jockey</title>
+</head>
+
+<body>
+    <!-- Container principal com largura total -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Coluna com título e imagem -->
+            <div class="col-sm-4">
+                <h1>Jockey</h1>
+                <img src="img/joqueinew.png" alt="Jockey" class="img-fluid">
+            </div>
+
+            <!-- Coluna com formulário de entrada -->
+            <div class="col-sm-8">
+                <h1>Jockey Club - Controle de Apostas</h1>
+
+                <!-- Início do formulário -->
+                <form>
+                    <div class="mb-3">
+                        <label for="inCavalo">N° Cavalo</label>
+                        <input type="number" min="1" class="form-control" id="inCavalo" required autofocus>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <h5 id="outCavalo" class="mt-4"></h5>
+                    </div>
+
+                    <div class="row">
+                        <!-- Entrada de valor de aposta -->
+                        <div class="col-sm-6">
+                            <h5>Nome do Cavalo</h5>
+                            <label for="inApostas">Apostas R$:</label>
+                            <input type="number" class="form-control" min="1" step="0.5" id="inValor" required>
+                        </div>
+
+                        <!-- Botões de ação -->
+                        <div class="col-sm-6">
+                            <input type="submit" class="btn btn-primary mt-4" value="Apostar" id="btApostar">
+                            <input type="button" class="btn btn-warning mt-4" value="Resumo" id="btResumo">
+                            <input type="button" class="btn btn-success mt-4" value="Ganhador" id="btGanhador">
+                            <input type="button" class="btn btn-danger mt-4" value="Novo Páreo" id="btNovo">
+                        </div>
+                    </div>
+                </form>
+
+                <!-- Área de exibição de resultados -->
+                <pre class="mt-3"></pre>
+            </div> <!-- Fim da col-sm-8 -->
+        </div> <!-- Fim da row principal -->
+    </div> <!-- Fim do container -->
+    <div id="ranking"></div>
+
+    <!-- Rodapé com ícones -->
+    <footer class="bg-dark text-white text-center py-3 mt-4">
+        <p>
+            Desenvolvido por <strong>Luiz Guni</strong>
+            <br>
+            <a href="https://github.com/Luizguni" target="_blank" class="text-light mx-2">
+                <i class="fab fa-github fa-lg"></i> GitHub
+            </a>
+            |
+            <a href="https://www.linkedin.com/in/Luizguni" target="_blank" class="text-light mx-2">
+                <i class="fab fa-linkedin fa-lg"></i> LinkedIn
+            </a>
+        </p>
+    </footer>
+
+
+    <!-- Script com a lógica do sistema -->
+    <script src="Jockey.js"></script>
+</body>
+
+</html>
